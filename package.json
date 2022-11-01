@@ -2,11 +2,14 @@
   "name": "modul-nodejs-basic",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
+    "how-to-run": "echo \"npm run <nama-script>\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
